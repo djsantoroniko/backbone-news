@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Backbone Test</title>
+    <script data-main="js/main" src="js/libs/require/require.js"></script>
+</head>
+<body>
+
+<div id="container">
+</div>
+
+</body>
+</html>

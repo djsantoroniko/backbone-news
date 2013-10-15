@@ -1,0 +1,33 @@
+<h1>Backbone News!</h1>
+	<p>Find out what's happening around you!</p><br />
+		<div>
+			<select id="region-select"class="selectpicker" data-style="btn-info" data-live-search="true">
+			   <option value="not-selected">Seleziona la tua regione...</option>
+			   <option value="abruzzo">Abruzzo</a></option>
+			   <option value="basilicata">Basilicata</a></option>
+			   <option value="calabria">Calabria</a></option>
+			   <option value="campania">Campania</a></option>
+			   <option value="emiliaromagna">Emilia-Romagna</a></option>
+			   <option value="friuliveneziagiulia">Friuli-Venezia Giulia</a></option>
+			   <option value="lazio">Lazio</a></option>
+			   <option value="liguria">Liguria</a></option>
+			   <option value="lombardia">Lombardia</a></option>
+			   <option value="marche">Marche</a></option>
+			   <option value="molise">Molise</a></option>
+			   <option value="piemonte">Piemonte</a></option>
+			   <option value="puglia">Puglia</a></option>
+			   <option value="sardegna">Sardegna</a></option>
+			   <option value="sicilia">Sicilia</a></option>
+			   <option value="toscana">Toscana</a></option>
+			   <option value="trentino">Trentino-Alto Adige</a></option>
+			   <option value="umbria">Umbria</a></option>
+			   <option value="valledaosta">Valle d'Aosta</a></option>
+			   <option value="veneto">Veneto</a></option>
+			</select>
+			<div id="warning-alert" class="alert alert-error">
+			  <strong>Error!</strong> Please check if you select a region.
+			</div>
+		</div>
+		<a href="#" id="getNews" class="btn btn-large btn-success">Get News!</a>
+	
+	<script>$('.selectpicker').selectpicker();</script>
